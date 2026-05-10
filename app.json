@@ -7,20 +7,19 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
       "backgroundColor": "#080a0f"
     },
     "android": {
       "package": "id.df21.live",
       "versionCode": 1,
-      "permissions": ["android.permission.INTERNET"]
+      "permissions": ["INTERNET"],
+      "allowBackup": false
     },
+    "plugins": ["react-native-webview"],
     "extra": {
       "eas": {
-        "projectId": "423c56ef-24d3-4c9e-9ebb-f1dd64d6f030"
+        "projectId": "df21-live"
       }
-    },
-    "owner": "rendypy347"
+    }
   }
 }
