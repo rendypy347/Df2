@@ -7,25 +7,14 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
-      "backgroundColor": "#080a0f",
       "image": "./assets/splash.png",
-      "resizeMode": "contain"
+      "resizeMode": "contain",
+      "backgroundColor": "#080a0f"
     },
     "android": {
       "package": "id.df21.live",
       "versionCode": 1,
-      "permissions": [
-        "INTERNET"
-      ],
-      "allowBackup": false
-    },
-    "plugins": [
-      "react-native-webview"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "df21-live"
-      }
+      "permissions": ["android.permission.INTERNET"]
     }
   }
 }
