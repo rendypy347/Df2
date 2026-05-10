@@ -15,6 +15,12 @@
       "package": "id.df21.live",
       "versionCode": 1,
       "permissions": ["android.permission.INTERNET"]
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "423c56ef-24d3-4c9e-9ebb-f1dd64d6f030"
+      }
+    },
+    "owner": "rendypy347"
   }
 }
