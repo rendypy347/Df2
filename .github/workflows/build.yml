@@ -17,7 +17,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18.x
-          cache: npm
 
       - name: Install dependencies
         run: npm install
@@ -30,6 +29,3 @@ jobs:
 
       - name: Build APK
         run: eas build --platform android --profile preview --non-interactive
-
-      - name: Get APK URL
-        run: eas build:list --platform android --limit 1 --json
