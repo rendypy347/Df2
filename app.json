@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "DF21 LIVE",
+    "slug": "df21-live",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#080a0f",
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "package": "id.df21.live",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET"
+      ],
+      "allowBackup": false
+    },
+    "plugins": [
+      "react-native-webview"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "df21-live"
+      }
+    }
+  }
+}
