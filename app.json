@@ -7,19 +7,25 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
       "backgroundColor": "#080a0f"
     },
     "android": {
       "package": "id.df21.live",
-      "versionCode": 1,
-      "permissions": ["INTERNET"],
-      "allowBackup": false
+      "versionCode": 3,
+      "permissions": ["android.permission.INTERNET"],
+      "jsEngine": "hermes"
     },
-    "plugins": ["react-native-webview"],
+    "jsEngine": "hermes",
+    "plugins": [
+      "react-native-webview"
+    ],
     "extra": {
       "eas": {
-        "projectId": "df21-live"
+        "projectId": "423c56ef-24d3-4c9e-9ebb-f1dd64d6f030"
       }
-    }
+    },
+    "owner": "rendypy347"
   }
 }
